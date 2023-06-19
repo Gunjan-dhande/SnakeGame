@@ -30,11 +30,9 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
+    <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#Instructions">Instructions</a></li>
+    <li><a href="#instructions">Instructions</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -72,6 +70,8 @@ You can help keep the jSnake hanging. Star this repository! 🌟
 * [Java Swing](https://en.wikipedia.org/wiki/Swing_(Java))
 * [AWT](https://en.wikipedia.org/wiki/Abstract_Window_Toolkit)
 
+
+<!-- USAGE -->
 ## Usage
 1. Make sure you have `javac` and `java` executables installed and configured
 2. Download the code, then compile and run Java Snake Game typing `javac Javac SnakeGame.java && java SnakeGame`
@@ -80,7 +80,7 @@ You can help keep the jSnake hanging. Star this repository! 🌟
 5. Once done `exit` to close game.
 
 
-<!-- Instructions -->
+<!-- INTRUCTIONS -->
 ## Instructions
 
 1. Use the arrow keys to control the snake's movement.
