@@ -16,7 +16,8 @@
   
   <p align="center">
     <a href="https://github.com/Gunjan-dhande/SnakeGame"><strong>Explore the repository </strong></a><br>
-    <a href="https://youtu.be/p5yNgzAFZGc"><strong> Snake Game Play Video Link </strong></a>
+      <img src="src/photos/YouTube.png" alt="Logo" width="25" height="15">
+    <a href="https://youtu.be/p5yNgzAFZGc"><strong>    Snake Game Play Video Link </strong></a>
     <br />
     <br />
     <a href="https://github.com/Gunjan-dhande/SnakeGame">View Code</a>
