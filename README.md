@@ -113,7 +113,7 @@ place to be learn, inspire, and create. Any contributions you make are
 <!-- LICENSE -->
 ## License
 
-This Snake game is released under the [IntelliJ IDEA 2023.1.1 (Community Edition)]. See the `LICENSE` file for more information.
+This Snake game is released under the `[IntelliJ IDEA 2023.1.1 (Community Edition)]`. See the `LICENSE` file for more information.
 Enjoy playing the Java Snake Game and have fun!
 
 
