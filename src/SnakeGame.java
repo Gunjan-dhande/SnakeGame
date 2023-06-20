@@ -21,9 +21,14 @@ public class SnakeGame extends JFrame {
 
 
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
         // Initialization of Game
+        
+        File file = new File("src/photos/Snake.wav");
+        AudioInputStream audioStream = AudioSystem.getAudioInputStream(file);
+        Clip clip = AudioSystem.getClip();
+        clip.open(audioStream);
+        clip.start();
         new SnakeGame();
-
     }
 }
