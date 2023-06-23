@@ -172,19 +172,30 @@ public class GamePad extends JPanel implements ActionListener {
             inGame = false;
         }
     }
-
+    int Score = 0;
     //Game Over
     public void gameOver(Graphics g){
-        int Score = (Dots - 3);
+        Score = (Dots - 3);
         String Sc = "Score : " + Integer.toString(Score);
-        Font  small = new Font("Helveetica", Font.BOLD, 50);
+        String restart = "Press SPACE to Restart";
+        Font  small = new Font("Helveetica", Font.BOLD, 40);
         FontMetrics fontMetrics = getFontMetrics(small);
 
         g.setColor( Color.WHITE);
         g.setFont(small);
         g.drawString(Sc, (Pad_Width-fontMetrics.stringWidth(Sc))/2, 4*(Pad_Height/5));
+        g.drawString(restart,(Pad_Width-fontMetrics.stringWidth(restart))/2 , 7*(Pad_Height/8));
 
+    }
 
+    public void restart(){
+        inGame = true;
+        initGame();
+        loadImage();
+        Score = 0;
+        Dots = 3;
+        DELAY = 150;
+        timer.start();
     }
 
     @Override
@@ -230,6 +241,9 @@ public class GamePad extends JPanel implements ActionListener {
         @Override
         public void keyPressed(KeyEvent keyEvent){
             int key = keyEvent.getKeyCode();
+            if (key == KeyEvent.VK_SPACE) {//press Space Bar to Restart
+                restart();
+            }
             if(key == KeyEvent.VK_LEFT && !right_Side){
                 left_Side = true;
                 up_Side = false;
