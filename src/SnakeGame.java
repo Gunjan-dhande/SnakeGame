@@ -1,4 +1,8 @@
+import javax.sound.sampled.*;
 import javax.swing.*;
+import java.io.File;
+import java.io.IOException;
+
 public class SnakeGame extends JFrame {
     GamePad gamePad;
 
