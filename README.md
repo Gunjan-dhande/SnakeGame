@@ -44,7 +44,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![jSnake Screenshot](src/photos/Screenshot.jpg)
+![jSnake Screenshot](src/photos/Screenshots.jpg)
 
 <b>Java Snake Game</b> is a simple snake game coded in Java.
 The Java Snake Game is a classic arcade-style game where the player controls
