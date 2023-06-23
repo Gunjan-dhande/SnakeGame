@@ -194,7 +194,7 @@ public class GamePad extends JPanel implements ActionListener {
         loadImage();
         Score = 0;
         Dots = 3;
-        DELAY = 150;
+        DELAY = 300;
         timer.start();
     }
 
