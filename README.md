@@ -119,6 +119,8 @@ Enjoy playing the Java Snake Game and have fun!
 
 <!-- CONTACT -->
 ## Contact
+For any questions or inquiries, please contact 
+[Linkedin](https://www.linkedin.com/in/gunjan-dhande)
 
 Project Link: [https://github.com/Gunjan-dhande/SnakeGame](https://github.com/Gunjan-dhande/SnakeGame)
 
